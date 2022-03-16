@@ -1,8 +1,9 @@
-/* GLOBAL */
+/* GLOBAL-STYLES */
 html{
   box-sizing: border-box;
   height: 100%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 *,*::after,*::before{
   box-sizing: border-box;
@@ -17,7 +18,7 @@ body{
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  color: black;
+  color: #000;
 }
 img{
   max-width: 100%;
@@ -26,15 +27,15 @@ img{
 }
 a{
   display: block;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  color: hsla(0,0%,100%,.8);
   white-space: nowrap;
 }
 
 /* CONTAINER  */
 .container{
-  width: 100%;
   max-width: 1285px;
+  width: 100%;
   padding-right: 50px;
   padding-left: 50px;
   margin-right: auto;
@@ -76,8 +77,8 @@ a{
 }
 .dropdown-menu {
   position: absolute;
-  background-color: #465A65;
   display: none;
+  background-color: #465A65;
 }
 .menu-link {
   width: 210px;
